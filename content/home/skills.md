@@ -6,7 +6,7 @@ date = 2017-09-20T00:00:00
 # Activate this widget? true/false
 active = true
 
-title = "Skills"
+title = "Expertise"
 subtitle = ""
 
 # Order that this section will appear in.
@@ -22,21 +22,21 @@ weight = 7
 # * ai - academic icons (see https://jpswalsh.github.io/academicons/)
 
 [[feature]]
-  icon = "r-project"
-  icon_pack = "fab"
-  name = "R"
-  description = "90%"
+  icon = "robot"
+  icon_pack = "fas"
+  name = " Robot Simulation (6 yrs)"
+  description = "Bipedal robot simulations using ode solvers and physical engines"
+ 
+[[feature]]
+  icon = "chart-bar"
+  icon_pack = "fas"
+  name = "Optimal Control (4 yrs)"
+  description = "Research experience about model predictive control, quadratic program-based control and trajectory optimization"
   
 [[feature]]
-  icon = "chart-line"
+  icon = "toolbox"
   icon_pack = "fas"
-  name = "Statistics"
-  description = "100%"  
-  
-[[feature]]
-  icon = "camera-retro"
-  icon_pack = "fas"
-  name = "Photography"
-  description = "10%"
+  name = "Mechatronics (3 yrs)"
+  description = "Embedded system software/firmware development and hardware implementation for bipedal walking experiments"  
 
 +++

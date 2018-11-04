@@ -10,31 +10,30 @@ weight = 5
 # List your academic interests.
 [interests]
   interests = [
-    "Artificial Intelligence",
-    "Computational Linguistics",
-    "Information Retrieval"
+    "Bipedal Locomotion Control",
+    "Multi-phase Motion Planning",
+    "Optimal Control"
   ]
 
 # List your qualifications (such as academic degrees).
 [[education.courses]]
-  course = "PhD in Artificial Intelligence"
-  institution = "Stanford University"
-  year = 2012
+  course = "PhD in Mechanical Engineering (Expected)"
+  institution = "Texas A&M University"
+  year = 2019
 
 [[education.courses]]
-  course = "MEng in Artificial Intelligence"
-  institution = "Massachusetts Institute of Technology"
-  year = 2009
+  course = "MS in Mechanical Engineering"
+  institution = "National Taiwan University"
+  year = 2010
 
 [[education.courses]]
-  course = "BSc in Artificial Intelligence"
-  institution = "Massachusetts Institute of Technology"
+  course = "BS in Power Mechanical Engineering"
+  institution = "National Tsing-Hua University"
   year = 2008
  
 +++
 
 # Biography
 
-Lena Smith is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate. 
+I am a PhD candidate at the Texas A&M Human Rehabilitation Group. My research expierence include optimal control, trajectory optimization and mechtronics for different bipedal systems.
+At human rehablitation group, I mainly work on improving trajectory optimization algorithms to generate human-like or robust walking motions on different terrains, which aimmed for using on lower-limb assisting devices.
