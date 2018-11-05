@@ -1,6 +1,6 @@
 +++
 title = "MS project, Mechatronics of a Humanoid Robot Nino"
-date = 2018-11-04T13:20:17-06:00
+date = 2018-11-02T13:20:17-06:00
 draft = false
 
 # Tags: can be used for filtering projects.
@@ -56,7 +56,7 @@ caption = "The highlight mechanisms designed by Ken"
   
 +++
 
-In my second year of MS study, my main task is to build the bipedal mechanism for a human-sized humanoid robot (which called Nino later on) from a prototype design within a year (so that it can match my graduation plan). Since there was no human-sized bipedal robot has been successfully built in our lab before, it was a chanllenging task at that moment. With a carefully-planned scheulde, the efficient executaion, and the great team work, we managed to built the bipedal robot and tested the ZMP-based walking on it.
+In my second year of MS study, my main research objective is to build the bipedal mechanism for a human-sized humanoid robot (which called Nino later on) from a prototype design and run the ZMP-based walking on it. Since there was no human-sized bipedal robot has been successfully built in our lab before, it was a chanllenging task at that moment. In one year, with a carefully-planned scheulde, the efficient executaion, and the great team work, we managed to built the bipedal robot and the ZMP-based walking was succesfully tested.
 
 ## Mechanism design of the biped mechanism with trunk
 {{< gallery album="1" >}}

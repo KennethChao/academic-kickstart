@@ -1,6 +1,6 @@
 +++
 title = "PhD project, Bipedal walking on various terrains towards to human-like motions"
-date = 2018-11-04T15:09:22-06:00
+date = 2018-11-05T15:09:22-06:00
 draft = false
 
 # Tags: can be used for filtering projects.
