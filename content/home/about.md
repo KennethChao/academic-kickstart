@@ -36,4 +36,4 @@ weight = 5
 # Biography
 
 I am a PhD candidate at the Texas A&M Human Rehabilitation Group. My research expierence include optimal control, trajectory optimization and mechtronics for different bipedal systems.
-At human rehablitation group, I mainly work on improving trajectory optimization algorithms to generate human-like or robust walking motions on different terrains, which aimmed for using on lower-limb assisting devices.
+In human rehablitation group, I mainly working on improving trajectory optimization algorithms to generate human-like/robust walking motions on different terrains (aimmed for lower-limb assisting devices), and applying methods from bipedal robotics to improve rehabilitation device.

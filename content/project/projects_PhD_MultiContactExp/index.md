@@ -1,6 +1,6 @@
 +++
-title = "MS project, Mechatronics of a Humanoid Robot Nino"
-date = 2018-11-04T13:20:17-06:00
+title = "PhD project, Towards to human-like walking gait"
+date = 2018-11-04T15:09:15-06:00
 draft = false
 
 # Tags: can be used for filtering projects.
@@ -8,7 +8,7 @@ draft = false
 tags = []
 
 # Project summary to display on homepage.
-summary = "My MS's main project: design the bipedal mechanim and the eletronics of a human-sized humanoid robot."
+summary = "This is the experiment (undergoing) of the optimization result using modified contact-invariant optimization, without the need of spicified contact sequence."
 
 # Slides (optional).
 #   Associate this page with Markdown slides.
@@ -19,21 +19,21 @@ summary = "My MS's main project: design the bipedal mechanim and the eletronics 
 slides = ""
 
 # Optional external URL for project (replaces project detail page).
-external_link = "https://sites.google.com/site/slongzchao/research-and-projects/graduate-works/developments-and-designs-for-a-biped-mechanism-of-a-humanoid-robot-and-mobile-robots"
+external_link = ""
 
 # Links (optional).
 url_pdf = ""
 url_code = ""
 url_dataset = ""
-url_project = "https://sites.google.com/site/slongzchao/research-and-projects/graduate-works/developments-and-designs-for-a-biped-mechanism-of-a-humanoid-robot-and-mobile-robots"
-url_slides = ""
-url_video = ""
+url_project = ""
+url_slides = "https://docs.google.com/presentation/d/18OSoZUJWWeYjSfg0VlNfK2zQoQqfuqTBjJZmfM3Wbr8/edit?usp=sharing"
+url_video = "https://youtu.be/4QS9QBgkGrQ"
 url_poster = ""
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
-url_custom = [{icon_pack = "fab", name="News", url = "https://spectrum.ieee.org/automaton/robotics/humanoids/ntu-taiwan-humanoid-sign-language"}]
-
+# url_custom = [{icon_pack = "fab", icon="twitter", name="Follow", url = "https://twitter.com"}]
+url_custom = [{name="Paper", url = "https://ieeexplore.ieee.org/document/8206361"}]
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 [image]
