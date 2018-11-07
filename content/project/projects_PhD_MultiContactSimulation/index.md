@@ -5,7 +5,7 @@ draft = false
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["trajectory-optimization", "optimal-control", "bipedal-locomotion"]
+tags = ["Optimal Control"]
 
 # Project summary to display on homepage.
 summary = "The recent work of walking motion generation on various terrains (stairs and slopes) using hybrid trajectory optimization."

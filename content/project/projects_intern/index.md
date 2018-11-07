@@ -5,7 +5,7 @@ draft = false
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-tags = []
+tags = ["Contact Control", "Experiment"]
 
 # Project summary to display on homepage.
 summary = "This is the project I contributed as a feature example in Robotics System Toolbox (RST) for MATLAB 2018a."
@@ -44,11 +44,10 @@ url_custom = [{name="Extended Video", url = "https://youtu.be/q4mIAX-Rcmg"}]
   focal_point = ""
 
 +++
-
 This is my last project at MathWorks Robotics Team (who develops the [Robotics System Toolbox (RST)](https://www.mathworks.com/products/robotics.html)).
-Inspired by [Haddadin's famous demo](https://youtu.be/dnUwqngH0bM), in this project I implemented [Haddadin's time scaling method](https://ieeexplore.ieee.org/document/4650764) to achieve safe trajectory tracking. With the Sawyer from Rethink Robotics, the purpose of this project is threefold:
+Inspired by [Haddadin's famous demo](https://youtu.be/dnUwqngH0bM), the idea is to demonstrate manipulator algorithms in RST for the safe robot-environment interaction to a ROS-enabled robot. In this project I implemented [Haddadin's time scaling method](https://ieeexplore.ieee.org/document/4650764) to achieve safe trajectory tracking on the Sawyer from Rethink Robotics. The purpose of this project is threefold:
 
-1. Contributed as an Simulation in Simulink with Simscape Multibody to highlight the usage of Robotics Manipulator Blocks.
+1. Contributed an simulation in Simulink with Simscape Multibody to showcase the usage of Robotics Manipulator Blocks.
 2. Using RST to test different APIs with the experiments on Sawyer through Robot Operating System (ROS), including the MATLAB code with ROS functions, the Simulink implementation with ROS blocks, and C++ code generated the from Simulink as a ROS node that can directly run on Sawyer.
 3. As part of the demonstrations presented in an annual company-wise event.
 

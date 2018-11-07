@@ -5,7 +5,7 @@ draft = false
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-tags = []
+tags = ["Optimal Control", "Experiment"]
 
 # Project summary to display on homepage.
 summary = "This is the experiment (undergoing) of the optimization result using modified contact-invariant optimization, without the need of spicified contact sequence."
@@ -43,4 +43,45 @@ url_custom = [{name="Paper", url = "https://ieeexplore.ieee.org/document/8206361
   # Focal point (optional)
   # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
   focal_point = ""
+  
+  [[gallery_item]]
+	album = "1"
+	image = "SACC.gif"
+	caption = "Walking gait with SACC constraint"
+    
+[[gallery_item]]
+	album = "1"
+	image = "NSCC.gif"
+	caption = "TWalking gait with NSCC constraint"
+	
+[[gallery_item]]
+	album = "2"
+	image = "fc.gif"
+	caption = "Walking gait with SACC constraints after the kinematic optimization"	
 +++
+This is my first project of trajectory optimization with direct collocation framework, to generate multi-domain walking for bipedal robot AMBER 3. Modified from [Micheal Posa's Trajectory Optimization through Contact](http://journals.sagepub.com/doi/abs/10.1177/0278364913506757), we used the Hermite-Simpson transcription in the direct collocation framework to improve the dynamic accruacy for the collocation points approximated as the nodes on cubic splines. In this project we also compared the optimization results with three different contact constraints:
+
+* Sliding allowed contact constraints (SACC, right animation below)
+* Non-sliding contact constraints (NSCC, left animation below)
+* NSCC with one-sided spring constraints (OSS)
+
+where different styles of walking gaits can be generated with different constraints.
+{{< gallery album="1" >}}
+
+The cost and the double support ratio of those three constraints are shown below, where the optimization result of OSS is probably premature because the additional complementary constraints to describe one-sided springs complicate the original formulation more.
+
+| Constraints           | SACC                    | NSCC                    		      |OSS
+| ----------------------| ------------------------------ | ------------------------------ |------------------------------ |
+| Cost of transport     | 0.048            				 | 0.049					      |2.664
+| Double support percentage     | 31.37%             	 |35.48%						  |35.48%
+
+
+
+In addition, towards to generate human-like motion, we added several schemes:
+
+* Virtual springs on ankles to adjust the foot-rolling motion (e.g. adjust the gait to have clearer toe-off or heel-strike motions) and a aditional penalty cost to limit the activation of springs.
+* An kinematic optimization as post-processing to increase the foot clearance as shown below:
+{{< gallery album="2" >}}
+
+The experiment is still undergoing, but the current result has shown the capability of bipedal locomotion towards to a more human-like movement:
+{{< youtube 4QS9QBgkGrQ >}}
