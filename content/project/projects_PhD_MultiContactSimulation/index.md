@@ -44,3 +44,4 @@ url_poster = ""
   # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
   focal_point = ""
 +++
+{{< figure src="opt.jpg" title="The overall opt formulation">}}

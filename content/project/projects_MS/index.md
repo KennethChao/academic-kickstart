@@ -28,14 +28,15 @@ external_link = ""
 url_pdf = ""
 url_code = ""
 url_dataset = ""
-url_project = "https://sites.google.com/site/slongzchao/research-and-projects/graduate-works/developments-and-designs-for-a-biped-mechanism-of-a-humanoid-robot-and-mobile-robots"
+url_project = ""
 url_slides = ""
-url_video = "https://youtu.be/RYdu1ux4G_I"
+url_video = "https://youtu.be/RYdu1ux4G_I?t=74"
 url_poster = ""
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
 #url_custom = [{icon_pack = "fab", name="News", url = "https://spectrum.ieee.org/automaton/robotics/humanoids/ntu-taiwan-humanoid-sign-language"}]
+#url_custom = [{name="IEEE Specturm", url = "https://spectrum.ieee.org/automaton/robotics/humanoids/ntu-taiwan-humanoid-sign-language"}]
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 

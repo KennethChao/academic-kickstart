@@ -8,7 +8,7 @@ draft = false
 tags = ["Optimal Control", "Experiment"]
 
 # Project summary to display on homepage.
-summary = "This is the experiment (undergoing) of the optimization result using modified contact-invariant optimization, without the need of spicified contact sequence."
+summary = "In this project we modified the trajectory optimization thorugh contact, and added several schemes to adjust the gait to be more human-like."
 
 # Slides (optional).
 #   Associate this page with Markdown slides.
@@ -33,7 +33,7 @@ url_poster = ""
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
 # url_custom = [{icon_pack = "fab", icon="twitter", name="Follow", url = "https://twitter.com"}]
-url_custom = [{name="Paper", url = "https://ieeexplore.ieee.org/document/8206361"}]
+url_custom = [{name="Preprint", url = "../../files/preprint_opt_through_contact.pdf"}]
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 [image]
@@ -52,14 +52,14 @@ url_custom = [{name="Paper", url = "https://ieeexplore.ieee.org/document/8206361
 [[gallery_item]]
 	album = "1"
 	image = "NSCC.gif"
-	caption = "TWalking gait with NSCC constraint"
+	caption = "Walking gait with NSCC constraint"
 	
 [[gallery_item]]
 	album = "2"
 	image = "fc.gif"
 	caption = "Walking gait with SACC constraints after the kinematic optimization"	
 +++
-This is my first project of trajectory optimization with direct collocation framework, to generate multi-domain walking for bipedal robot AMBER 3. Modified from [Micheal Posa's Trajectory Optimization through Contact](http://journals.sagepub.com/doi/abs/10.1177/0278364913506757), we used the Hermite-Simpson transcription in the direct collocation framework to improve the dynamic accruacy for the collocation points approximated as the nodes on cubic splines. In this project we also compared the optimization results with three different contact constraints:
+This is a project using **_trajectory optimization with direct collocation framework_**. The objective is to generate multi-domain walking for bipedal robot AMBER 3. Modified from [Michael Posa's Trajectory Optimization through Contact](http://journals.sagepub.com/doi/abs/10.1177/0278364913506757), we used the Hermite-Simpson transcription to improve the dynamic accruacy for the collocation points approximated as the nodes on cubic splines. In this work we also compared the optimization results with three different contact constraints:
 
 * Sliding allowed contact constraints (SACC, right animation below)
 * Non-sliding contact constraints (NSCC, left animation below)
@@ -70,10 +70,10 @@ where different styles of walking gaits can be generated with different constrai
 
 The cost and the double support ratio of those three constraints are shown below, where the optimization result of OSS is probably premature because the additional complementary constraints to describe one-sided springs complicate the original formulation more.
 
-| Constraints           | SACC                    | NSCC                    		      |OSS
-| ----------------------| ------------------------------ | ------------------------------ |------------------------------ |
-| Cost of transport     | 0.048            				 | 0.049					      |2.664
-| Double support percentage     | 31.37%             	 |35.48%						  |35.48%
+| Constraints                   | SACC                           | NSCC               		      |OSS
+| ------------------------------| ------------------------------ | ------------------------------ |------------------------------ |
+| Cost of transport             | 0.048         				 | 0.049					      |2.664
+| Double support percentage     | 31.37%                     	 |35.48%						  |35.48%
 
 
 
