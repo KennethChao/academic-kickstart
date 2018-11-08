@@ -6,6 +6,6 @@ publication_types = ["1"]
 abstract = ""
 selected = "false"
 publication = "*IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)*"
-url = "/files/preprint_optc.pdf"
+#url = "/files/preprint_optc.pdf"
 +++
 
