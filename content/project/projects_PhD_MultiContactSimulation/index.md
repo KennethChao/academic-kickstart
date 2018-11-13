@@ -44,4 +44,19 @@ url_poster = ""
   # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
   focal_point = ""
 +++
+In this project, I implemented the hybrid trajectory optimization and explore the walking generation on different terrains. As shown in the following figure, the optimization formulation contains modulaized constraints, so that it will be easier to customize different combinations of constraints.
+The current visualization results are rendered with SimScape Multi-Body as shown in the following videos (More videos of slope and stair walking are in preparation):
+
 {{< figure src="opt.jpg" title="The overall opt formulation">}}
+
+Normal walking (flat-terrain):
+{{< video src="AMBER3_Visual_Walking.mp4" controls="yes" >}}
+
+Down-slope (0.1 radian) walking:
+{{< video src="AMBER3_Visual_Walking_Ground.mp4" controls="yes" >}}
+
+Down-slope (0.2 radian) walking:
+{{< video src="AMBER3_Visual_Walking_Ground_DS01.mp4" controls="yes" >}}
+
+Down-slope (0.2 radian) walking with smaller range of torso sawying behaves more cautiouly.
+{{< video src="AMBER3_Visual_Walking_Ground_DS02_Small_TorsoAngle.mp4" controls="yes" >}}
