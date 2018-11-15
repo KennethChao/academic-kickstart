@@ -52,10 +52,10 @@ The current visualization results are rendered with SimScape Multi-Body as shown
 Normal walking (flat-terrain):
 {{< video src="AMBER3_Visual_Walking.mp4" controls="yes" >}}
 
-Down-slope (0.1 radian) walking:
+Normal walking (flat-terrain) with a different view angle:
 {{< video src="AMBER3_Visual_Walking_Ground.mp4" controls="yes" >}}
 
-Down-slope (0.2 radian) walking:
+Down-slope (0.1 radian) walking:
 {{< video src="AMBER3_Visual_Walking_Ground_DS01.mp4" controls="yes" >}}
 
 Down-slope (0.2 radian) walking with smaller range of torso sawying behaves more cautiouly.
