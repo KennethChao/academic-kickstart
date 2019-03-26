@@ -17,7 +17,7 @@ weight = 5
 
 # List your qualifications (such as academic degrees).
 [[education.courses]]
-  course = "PhD in Mechanical Engineering (Expected)"
+  course = "PhD in Mechanical Engineering"
   institution = "Texas A&M University"
   year = 2019
 

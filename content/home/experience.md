@@ -25,7 +25,7 @@ date_format = "January 2006"
   company_url = ""
   location = "Texas"
   date_start = "2015-05-20"
-  date_end = ""
+  date_end = "2019-05-20"
   description = """Research of bipedal locomotion and control, and human gait analysis.
   Main studies include:
   

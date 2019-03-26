@@ -1,14 +1,14 @@
 +++
-title = "PhD project, Bipedal walking on various terrains towards to human-like motions"
+title = "PhD project, Walking with foot rolling motion on various terrains"
 date = 2018-11-05T15:09:22-06:00
 draft = false
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["Optimal Control"]
+tags = ["Optimal Control", "Experiment"]
 
 # Project summary to display on homepage.
-summary = "The recent work of walking motion generation on various terrains (stairs and slopes) using hybrid trajectory optimization."
+summary = "By genealizing the contact constraints, we extended HZD gait optimization to generate walking motion on flat ground, stairs and slopes."
 
 # Slides (optional).
 #   Associate this page with Markdown slides.
@@ -27,7 +27,7 @@ url_code = ""
 url_dataset = ""
 url_project = ""
 url_slides = ""
-url_video = ""
+url_video = "https://youtu.be/wYKrLmk7nRY"
 url_poster = ""
 
 # Custom links (optional).
@@ -49,30 +49,15 @@ url_poster = ""
   # Up-slope (0.3 radian) walking:
   # {{< video src="AMBER3_Visual_Walking_Ground_US03.mp4" controls="yes" >}}
 +++
-In this project, I implemented the hybrid trajectory optimization and explore the walking generation on different terrains. As shown in the following figure, the optimization formulation contains modulaized constraints, so that it will be easier to customize different combinations of constraints.
-The current visualization results are rendered with SimScape Multi-Body as shown in the following videos (More videos of slope and stair walking are in preparation):
+In this project, I implemented the hybrid zero dynamics (HZD) gait optimization and explore the walking generation on different terrains. As shown in the following figure, the optimization formulation contains modulaized constraints, so that it will be easier to customize for different contact sequence.
 
 {{< figure src="opt.jpg" title="The overall opt formulation">}}
+The following videos show the visualizations of optimization results (which are rendered with Simulink and SimScape Multi-Body), and current experiment results as the validations:
 
-# Normal walking (flat-terrain):
-{{< video src="AMBER3_Visual_Walking.mp4" controls="yes" >}}
-
-# Normal walking 2 (flat-terrain)
-{{< video src="AMBER3_Visual_Walking_Ground.mp4" controls="yes" >}}
-
-# Down-slope (0.1 radian)
-{{< video src="AMBER3_Visual_Walking_Ground_DS01.mp4" controls="yes" >}}
-# Down-slope (0.2 radian)
-{{< video src="AMBER3_Visual_Walking_Ground_DS02.mp4" controls="yes" >}}
-# Down-slope (0.2 radian) 
-Down-slope walking with smaller range of torso swaying behaves more cautiouly.
-{{< video src="AMBER3_Visual_Walking_Ground_DS02_Small_TorsoAngle.mp4" controls="yes" >}}
+{{< youtube wYKrLmk7nRY >}}
 
 
-# Up-slope (0.1 radian):
-{{< video src="AMBER3_Visual_Walking_Ground_US01.mp4" controls="yes" >}}
-# Up-slope (0.2 radian):
-{{< video src="AMBER3_Visual_Walking_Ground_US02.mp4" controls="yes" >}}
 
-# Down-stair (0.1m decent):
-{{< video src="AMBER3_Visual_Walking_Ground_DStair01.mp4" controls="yes" >}}
+A set of walking motion comparison between optimization results and human walking is compared in this video, where the similar trends and the differences are highlighted and discussed.
+
+{{< youtube vQxLmPpmtMA >}}

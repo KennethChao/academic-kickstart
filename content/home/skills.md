@@ -24,7 +24,7 @@ weight = 7
 [[feature]]
   icon = "robot"
   icon_pack = "fas"
-  name = " Robot Simulation (6 yrs)"
+  name = " Robot Simulation (7 yrs)"
   description = "Bipedal robot simulations using ode solvers and physical engines"
  
 [[feature]]
