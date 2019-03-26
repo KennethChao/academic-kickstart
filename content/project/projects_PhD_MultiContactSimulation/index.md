@@ -26,7 +26,7 @@ url_pdf = ""
 url_code = ""
 url_dataset = ""
 url_project = ""
-url_slides = "https://docs.google.com/presentation/d/1QBZAclL6Vy0BMRYatpN--DuODKhMf3h4lkZVD6jbZyw/edit?usp=sharing"
+url_slides = ""
 url_video = ""
 url_poster = ""
 
@@ -43,20 +43,36 @@ url_poster = ""
   # Focal point (optional)
   # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
   focal_point = ""
+  
+  # Down-slope (0.3 radian) walking:
+  # {{< video src="AMBER3_Visual_Walking_Ground_DS03.mp4" controls="yes" >}}
+  # Up-slope (0.3 radian) walking:
+  # {{< video src="AMBER3_Visual_Walking_Ground_US03.mp4" controls="yes" >}}
 +++
 In this project, I implemented the hybrid trajectory optimization and explore the walking generation on different terrains. As shown in the following figure, the optimization formulation contains modulaized constraints, so that it will be easier to customize different combinations of constraints.
 The current visualization results are rendered with SimScape Multi-Body as shown in the following videos (More videos of slope and stair walking are in preparation):
 
 {{< figure src="opt.jpg" title="The overall opt formulation">}}
 
-Normal walking (flat-terrain):
+# Normal walking (flat-terrain):
 {{< video src="AMBER3_Visual_Walking.mp4" controls="yes" >}}
 
-Normal walking (flat-terrain) with a different view angle:
+# Normal walking 2 (flat-terrain)
 {{< video src="AMBER3_Visual_Walking_Ground.mp4" controls="yes" >}}
 
-Down-slope (0.1 radian) walking:
+# Down-slope (0.1 radian)
 {{< video src="AMBER3_Visual_Walking_Ground_DS01.mp4" controls="yes" >}}
-
-Down-slope (0.2 radian) walking with smaller range of torso sawying behaves more cautiouly.
+# Down-slope (0.2 radian)
+{{< video src="AMBER3_Visual_Walking_Ground_DS02.mp4" controls="yes" >}}
+# Down-slope (0.2 radian) 
+Down-slope walking with smaller range of torso swaying behaves more cautiouly.
 {{< video src="AMBER3_Visual_Walking_Ground_DS02_Small_TorsoAngle.mp4" controls="yes" >}}
+
+
+# Up-slope (0.1 radian):
+{{< video src="AMBER3_Visual_Walking_Ground_US01.mp4" controls="yes" >}}
+# Up-slope (0.2 radian):
+{{< video src="AMBER3_Visual_Walking_Ground_US02.mp4" controls="yes" >}}
+
+# Down-stair (0.1m decent):
+{{< video src="AMBER3_Visual_Walking_Ground_DStair01.mp4" controls="yes" >}}
